@@ -1,0 +1,14 @@
+.project {
+  margin-bottom: 2rem;
+  position: relative;
+
+  &__title {
+    bottom: 1rem;
+    color: black;
+    font-size: 1.25rem;
+    left: 0;
+    position: absolute;
+    right: 0;
+    text-align: center;
+  }
+}

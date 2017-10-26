@@ -1,0 +1,16 @@
+.header { margin-top: .5rem; margin-bottom: .5rem; }
+
+.nav-link.active { border-bottom: 2px solid currentColor; }
+
+.introduction { margin: 6rem 0; }
+.introduction .lead strong { font-weight: 700; }
+
+.lets-chat { margin-bottom: 2.5rem; margin-top: 1.5rem; }
+.lets-chat p { font-size: 1.5rem; font-weight: 500; line-height: 1.5; margin-bottom: 1rem; }
+
+.project { margin-bottom: 2rem; position: relative; }
+.project__title { bottom: 1rem; color: black; font-size: 1.25rem; left: 0; position: absolute; right: 0; text-align: center; }
+
+.social-icons { font-size: 2rem; }
+.social-icons a { color: #999; }
+.social-icons a:hover { color: #666666; }
