@@ -1,23 +1,7 @@
-- name: Project Title
-  image: http://placehold.it/500x400&text=Project
-  link: http://www.google.com
+- name: Flowermanager Ecommerce
+  image: assets/fm-thumb.png
+  link: https://medium.com/andrea-cannistra/flowermanager-ecommerce-4e70b2ff0ae9
 
-- name: Project Title
-  image: http://placehold.it/500x400&text=Project
-  link: http://www.google.com
-
-- name: Project Title
-  image: http://placehold.it/500x400&text=Project
-  link: http://www.google.com
-
-- name: Project Title
-  image: http://placehold.it/500x400&text=Project
-  link: http://www.google.com
-
-- name: Project Title
-  image: http://placehold.it/500x400&text=Project
-  link: http://www.google.com
-
-- name: Project Title
-  image: http://placehold.it/500x400&text=Project
-  link: http://www.google.com
+- name: Sarasota Film Society
+  image: assets/sfs-thumb.png
+  link: https://medium.com/andrea-cannistra/sarasota-film-society-740eae1ba536
