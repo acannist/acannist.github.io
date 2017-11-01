@@ -4,7 +4,7 @@ body {
   font-family: 'Arvo', serif;
 }
 
-h1 {
+h1, h2 {
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -13,4 +13,14 @@ a {
   &:hover {
     color: #32084f;
   }
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  column-count: 2;
+}
+
+li {
+  padding-bottom: 1em;
 }
