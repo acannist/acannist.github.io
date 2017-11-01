@@ -8,6 +8,10 @@ h1, h2 {
   font-family: 'Montserrat', sans-serif;
 }
 
+h2 {
+  padding-top: 1em;
+}
+
 a {
   color: #4e0a7d;
   &:hover {
@@ -19,6 +23,9 @@ ul {
   list-style: none;
   padding: 0;
   column-count: 2;
+  &.skills {
+    column-count: 3;
+  }
 }
 
 li {
