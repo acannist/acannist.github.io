@@ -31,3 +31,12 @@ a {
 .about li {
   padding-bottom: 1em;
 }
+
+@media (max-width: 600px) {
+  .about ul {
+    column-count: 1;
+  }
+  & .skills {
+    column-count: 2;
+  }
+}
