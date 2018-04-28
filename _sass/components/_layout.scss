@@ -35,8 +35,8 @@ a {
 @media (max-width: 600px) {
   .about ul {
     column-count: 1;
-  }
-  &.skills {
-    column-count: 2;
+    &.skills {
+      column-count: 2;
+    }
   }
 }
