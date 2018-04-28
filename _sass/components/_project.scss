@@ -29,5 +29,12 @@
   &:hover {
     a::before, .project__title { display: block; }
   }
+}
 
+@media (max-width: 600px) {
+  .project {
+    &__title {
+      bottom: 4rem;
+    }
+  }
 }
