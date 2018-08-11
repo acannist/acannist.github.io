@@ -1,3 +1,11 @@
+- name: Primetime Limos
+  image: assets/limos-thumb.jpg
+  link: https://medium.com/andrea-cannistra/primetime-limos-fb641cd39b06
+
+- name: McCurdy's Comedy Club
+  image: assets/comedy-thumb.jpg
+  link: https://medium.com/andrea-cannistra/mccurdys-comedy-club-c3b2ce3f0db7
+
 - name: Flowermanager Ecommerce
   image: assets/fm-thumb.png
   link: https://medium.com/andrea-cannistra/flowermanager-ecommerce-4e70b2ff0ae9
@@ -13,7 +21,3 @@
 - name: Gorilla Doctors
   image: assets/gorilla-thumb.png
   link: https://medium.com/andrea-cannistra/gorilla-doctors-7d186aefaa97
-
-- name: Primetime Limos
-  image: assets/limos-thumb.jpg
-  link: https://medium.com/andrea-cannistra/primetime-limos-fb641cd39b06
