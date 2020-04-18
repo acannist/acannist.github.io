@@ -26,6 +26,12 @@ a {
   &.skills {
     column-count: 4;
   }
+  &.exp {
+    column-count: 1;
+  }
+  em {
+    font-weight: 300;
+  }
 }
 
 .about li {
