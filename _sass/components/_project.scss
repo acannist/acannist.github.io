@@ -25,9 +25,20 @@
     right: 0;
     text-align: center;
   }
-  
+  &__skills {
+    display: none;
+    bottom: 6rem;
+    color: white;
+    font-size:1rem;
+    font-family: 'Roboto', sans-serif;
+    left: 0;
+    position: absolute;
+    right: 0;
+    text-align: center;
+  }
+
   &:hover {
-    a::before, .project__title { display: block; }
+    a::before, .project__title, .project__skills { display: block; }
   }
 }
 
