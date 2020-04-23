@@ -4,7 +4,7 @@
   skills: User Experience, User Interface, Frontend Development
 
 - name: Bradentucky Bombers Marketing
-  image: assets/bombers-marketing.jpg
+  image: assets/bombers-web.jpg
   link: https://medium.com/@acannist/bradentucky-bombers-roller-derby-social-media-marketing-8fe332f10c69
   skills: Content Creation, Marketing Design, Scheduling, Copy Writing, Video Production
 
@@ -12,16 +12,6 @@
   image: assets/gooee.jpg
   link: https://medium.com/@acannist/iot-building-management-system-platform-24e6126e60b
   skills: User Experience, User Interface
-
-- name: Flower Manager Marketing
-  image: assets/fm-marketing.jpg
-  link: https://medium.com/@acannist/bradentucky-bombers-roller-derby-social-media-marketing-8fe332f10c69
-  skills: Concepting, Marketing Design, Copy Writing, Motion Design, Animation
-
-- name: McCurdy's Comedy Club
-  image: assets/mccurdys.jpg
-  link: https://medium.com/andrea-cannistra/mccurdys-comedy-club-c3b2ce3f0db7
-  skills: User Experience, User Interface, Frontend Development
 
 - name: Flowermanager Ecommerce
   image: assets/fm-web.jpg
@@ -33,9 +23,19 @@
   link: https://medium.com/andrea-cannistra/sarasota-film-society-740eae1ba536
   skills: User Experience, User Interface, Frontend Development
 
-- name: Bradentucky Bombers
-  image: assets/bombers-web.jpg
+- name: Bradentucky Bombers Roller Derby
+  image: assets/bombers-marketing.jpg
   link: https://medium.com/andrea-cannistra/bradentucky-bombers-roller-derby-league-19974ba4f819
+  skills: User Experience, User Interface, Frontend Development
+
+- name: Flowermanager Marketing
+  image: assets/fm-marketing.jpg
+  link: https://medium.com/@acannist/bradentucky-bombers-roller-derby-social-media-marketing-8fe332f10c69
+  skills: Concepting, Marketing Design, Copy Writing, Motion Design, Animation
+  
+- name: McCurdy's Comedy Club
+  image: assets/mccurdys.jpg
+  link: https://medium.com/andrea-cannistra/mccurdys-comedy-club-c3b2ce3f0db7
   skills: User Experience, User Interface, Frontend Development
 
 - name: Gorilla Doctors
