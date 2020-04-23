@@ -47,11 +47,3 @@ a {
     }
   }
 }
-
-.projects {
-    display: inline-grid;
-}
-.three-col {
-  grid-template-columns: repeat(3, 1fr);
-  column-gap: 3rem;
-}
