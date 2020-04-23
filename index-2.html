@@ -1,0 +1,27 @@
+---
+layout: default
+title: Home
+---
+
+<div class="introduction">
+  <div class="container">
+    <h1 class="display-4">Andrea Cannistra</h1>
+    <p class="lead">I am a senior digital designer with a passion for <strong>product</strong>, <strong>web</strong>, <strong>mobile</strong>, and <strong>motion design</strong>. Not to mention a strong love for typography with a life goal of being an extra in a zombie movie.</p>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    {% for project in site.data.casestudies %}
+      <div class="three-col">
+        <section class="project">
+          <a href="{{ project.link }}" target="_blank" rel="noopener">
+            <img src="{{ project.image }}" class="img-fluid" alt="{{ project.name }}">
+            <h2 class="project__title">{{ project.name }}</h2>
+            <h3 class="project__skills">{{ project.skills }}</h3>
+          </a>
+        </section>
+      </div>
+    {% endfor %}
+  </div>
+</div>
