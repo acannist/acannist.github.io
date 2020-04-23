@@ -3,20 +3,20 @@
   link: https://medium.com/@acannist/marvel-universe-live-3ac93469c53b
   skills: User Experience, User Interface, Frontend Development
 
+- name: Bradentucky Bombers Marketing
+  image: assets/bombers-marketing.jpg
+  link: https://medium.com/@acannist/bradentucky-bombers-roller-derby-social-media-marketing-8fe332f10c69
+  skills: Content Creation, Marketing Design, Scheduling, Copy Writing, Video Production
+
 - name: IoT Building Management System Platform
   image: assets/gooee.jpg
   link: https://medium.com/@acannist/iot-building-management-system-platform-24e6126e60b
   skills: User Experience, User Interface
 
-- name: Bradentucky Bombers Marketing
-  image: assets/bombers-marketing.jpg
+- name: Flower Manager Marketing
+  image: assets/fm-marketing.jpg
   link: https://medium.com/@acannist/bradentucky-bombers-roller-derby-social-media-marketing-8fe332f10c69
-  skills: Content Creation, Marketing Design, Scheduling, Copy Writing
-
-  name: Primetime Limos
-  image: assets/limos.jpg
-  link: https://medium.com/andrea-cannistra/primetime-limos-fb641cd39b06
-  skills: User Experience, User Interface, Frontend Development
+  skills: Concepting, Marketing Design, Copy Writing, Motion Design, Animation
 
 - name: McCurdy's Comedy Club
   image: assets/mccurdys.jpg
@@ -41,4 +41,9 @@
 - name: Gorilla Doctors
   image: assets/gorilla.jpg
   link: https://medium.com/andrea-cannistra/gorilla-doctors-7d186aefaa97
+  skills: User Experience, User Interface, Frontend Development
+
+  name: Primetime Limos
+  image: assets/limos.jpg
+  link: https://medium.com/andrea-cannistra/primetime-limos-fb641cd39b06
   skills: User Experience, User Interface, Frontend Development
