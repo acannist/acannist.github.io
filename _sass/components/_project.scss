@@ -3,6 +3,10 @@
   position: relative;
   transition: all 0.4s;
   
+  a {
+    transition: all 0.4s;
+  }
+  
   a::before {
     display: none;
     content: "";
@@ -12,7 +16,6 @@
     bottom: 0;
     right: 0;
     background: rgba(0,0,0,0.8);
-    transition: all 0.4s;
   }
 
   &__title {
