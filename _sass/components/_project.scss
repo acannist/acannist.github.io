@@ -2,11 +2,7 @@
   margin-bottom: 2rem;
   position: relative;
   transition: all 0.4s;
-  
-  a {
-    transition: all 0.4s;
-  }
-  
+
   a::before {
     display: none;
     content: "";
@@ -16,6 +12,7 @@
     bottom: 0;
     right: 0;
     background: rgba(0,0,0,0.8);
+    transition: all 0.4s;
   }
 
   &__title {
@@ -43,8 +40,12 @@
   }
 
   &:hover {
-    a::before, .project__title, .project__skills { display: block; transition: all 0.4s; padding-left: 10px; padding-right: 10px; }
+    a::before, .project__title, .project__skills { display: block; padding-left: 10px; padding-right: 10px; }
   }
+}
+
+a:hover::before {
+  transition: all 0.4s; 
 }
 
 @media (max-width: 600px) {
