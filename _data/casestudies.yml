@@ -32,15 +32,15 @@
   image: assets/fm-marketing.jpg
   link: https://medium.com/@acannist/flowermanager-marketing-ca1f10c6858
   skills: Concepting, Marketing Design, Copy Writing, Motion Design, Animation
-  
-- name: McCurdy's Comedy Club
-  image: assets/mccurdys.jpg
-  link: https://medium.com/andrea-cannistra/mccurdys-comedy-club-c3b2ce3f0db7
-  skills: User Experience, User Interface, Frontend Development
 
   name: Primetime Limos
   image: assets/limos.jpg
   link: https://medium.com/andrea-cannistra/primetime-limos-fb641cd39b06
+  skills: User Experience, User Interface, Frontend Development
+
+- name: McCurdy's Comedy Club
+  image: assets/mccurdys.jpg
+  link: https://medium.com/andrea-cannistra/mccurdys-comedy-club-c3b2ce3f0db7
   skills: User Experience, User Interface, Frontend Development
 
 - name: Gorilla Doctors
