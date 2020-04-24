@@ -6,7 +6,7 @@
 - name: Bradentucky Bombers Marketing
   image: assets/bombers-web.jpg
   link: https://medium.com/@acannist/bradentucky-bombers-roller-derby-social-media-marketing-8fe332f10c69
-  skills: Content Creation, Marketing Design, Scheduling, Copy Writing, Video Production
+  skills: Content Creation, Marketing Design, Scheduling, Copywriting, Video Production
 
 - name: IoT Building Management System Platform
   image: assets/gooee.jpg
@@ -30,7 +30,7 @@
 
 - name: Flowermanager Marketing
   image: assets/fm-marketing.jpg
-  link: https://medium.com/@acannist/bradentucky-bombers-roller-derby-social-media-marketing-8fe332f10c69
+  link: https://medium.com/@acannist/flowermanager-marketing-ca1f10c6858
   skills: Concepting, Marketing Design, Copy Writing, Motion Design, Animation
   
 - name: McCurdy's Comedy Club
@@ -38,12 +38,12 @@
   link: https://medium.com/andrea-cannistra/mccurdys-comedy-club-c3b2ce3f0db7
   skills: User Experience, User Interface, Frontend Development
 
-- name: Gorilla Doctors
-  image: assets/gorilla.jpg
-  link: https://medium.com/andrea-cannistra/gorilla-doctors-7d186aefaa97
-  skills: User Experience, User Interface, Frontend Development
-
   name: Primetime Limos
   image: assets/limos.jpg
   link: https://medium.com/andrea-cannistra/primetime-limos-fb641cd39b06
+  skills: User Experience, User Interface, Frontend Development
+
+- name: Gorilla Doctors
+  image: assets/gorilla.jpg
+  link: https://medium.com/andrea-cannistra/gorilla-doctors-7d186aefaa97
   skills: User Experience, User Interface, Frontend Development
