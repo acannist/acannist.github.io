@@ -1,3 +1,42 @@
+.project {
+  margin-bottom: 5rem;
+
+  a {
+    text-decoration: none;
+
+    & h2 {
+      color: black;
+      font-size:1.75rem;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 700;
+      margin-top: -1rem;
+    }
+    & h3 {
+      color: black;
+      font-size:1rem;
+      font-family: 'Roboto', sans-serif;
+    }
+    &:hover {
+        .project__title, .project__skills { color: #4e0a7d; }
+      }
+    a::before {
+      display: none;
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      background: rgba(0,0,0,0.8);
+      transition: all 0.4s;
+    }
+    &:hover {
+      a::before { display: block; padding-left: 10px; padding-right: 10px; }
+    }
+  }
+}
+
+
 // .project {
 //   margin-bottom: 2rem;
 //   position: relative;
@@ -55,26 +94,3 @@
 //     }
 //   }
 // }
-
-.project {
-  margin-bottom: 2rem;
-
-  a {
-    text-decoration: none;
-
-    & h2 {
-      color: black;
-      font-size:1.75rem;
-      font-family: 'Roboto', sans-serif;
-      font-weight: 700;
-    }
-    & h3 {
-      color: black;
-      font-size:1rem;
-      font-family: 'Roboto', sans-serif;
-    }
-    &:hover {
-        .project__title, .project__skills { color: purple; }
-      }
-  }
-}
