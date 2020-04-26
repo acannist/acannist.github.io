@@ -1,57 +1,87 @@
+// .project {
+//   margin-bottom: 2rem;
+//   position: relative;
+//   transition: all 0.4s;
+
+//   a::before {
+//     display: none;
+//     content: "";
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     bottom: 0;
+//     right: 0;
+//     background: rgba(0,0,0,0.8);
+//     transition: all 0.4s;
+//   }
+
+//   &__title {
+//     display: none;
+//     bottom: 9rem;
+//     color: white;
+//     font-size:1.75rem;
+//     font-family: 'Roboto', sans-serif;
+//     font-weight: 700;
+//     left: 0;
+//     position: absolute;
+//     right: 0;
+//     text-align: center;
+//   }
+//   &__skills {
+//     display: none;
+//     bottom: 6rem;
+//     color: white;
+//     font-size:1rem;
+//     font-family: 'Roboto', sans-serif;
+//     left: 0;
+//     position: absolute;
+//     right: 0;
+//     text-align: center;
+//   }
+
+//   &:hover {
+//     a::before, .project__title, .project__skills { display: block; padding-left: 10px; padding-right: 10px; }
+//   }
+// }
+
+// a:hover::before {
+//   transition: all 0.4s; 
+// }
+
+// @media (max-width: 600px) {
+//   .project {
+//     &__title {
+//       bottom: 4rem;
+//     }
+//   }
+// }
+
+
+          <a href="{{ project.link }}" target="_blank" rel="noopener">
+            <img src="{{ project.image }}" class="img-fluid" alt="{{ project.name }}">
+            <h2 class="project__title">{{ project.name }}</h2>
+            <h3 class="project__skills">{{ project.skills }}</h3>
+          </a>
+
 .project {
   margin-bottom: 2rem;
-  position: relative;
-  transition: all 0.4s;
 
-  a::before {
-    display: none;
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    background: rgba(0,0,0,0.8);
-    transition: all 0.4s;
-  }
+  a {
+    text-decoration: none;
 
-  &__title {
-    display: none;
-    bottom: 9rem;
-    color: white;
-    font-size:1.75rem;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    left: 0;
-    position: absolute;
-    right: 0;
-    text-align: center;
-  }
-  &__skills {
-    display: none;
-    bottom: 6rem;
-    color: white;
-    font-size:1rem;
-    font-family: 'Roboto', sans-serif;
-    left: 0;
-    position: absolute;
-    right: 0;
-    text-align: center;
-  }
-
-  &:hover {
-    a::before, .project__title, .project__skills { display: block; padding-left: 10px; padding-right: 10px; }
-  }
-}
-
-a:hover::before {
-  transition: all 0.4s; 
-}
-
-@media (max-width: 600px) {
-  .project {
     &__title {
-      bottom: 4rem;
+      color: black;
+      font-size:1.75rem;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 700;
     }
+    &__skills {
+      color: black;
+      font-size:1rem;
+      font-family: 'Roboto', sans-serif;
+    }
+    &:hover {
+        .project__title, .project__skills { color: purple; }
+      }
   }
 }
