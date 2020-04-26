@@ -19,19 +19,8 @@
     &:hover {
         .project__title, .project__skills { color: #4e0a7d; }
       }
-    a::before {
-      display: none;
-      content: "";
-      position: absolute;
-      top: 0;
-      left: 0;
-      bottom: 0;
-      right: 0;
-      background: rgba(0,0,0,0.8);
-      transition: all 0.4s;
-    }
-    &:hover {
-      a::before { display: block; padding-left: 10px; padding-right: 10px; }
+    &:hover img {
+      opacity: 0.7;
     }
   }
 }
