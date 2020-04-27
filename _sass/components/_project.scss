@@ -19,9 +19,11 @@
     &:hover {
         .project__title, .project__skills { color: #4e0a7d; }
       }
-    &:hover img {
-      opacity: 0.7;
-    }
+
+      .blend:hover {
+        background: white;
+        mix-blend-mode: hard-light;
+      }
   }
 }
 
