@@ -20,11 +20,8 @@
         .project__title, .project__skills { color: #4e0a7d; }
       }
 
-    img {
+    &:hover img {
       mix-blend-mode: hard-light;
-    }
-    .blend {
-      background-color: black
     }
   }
 }
